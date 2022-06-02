@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #324752;
+  width: fit-content;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.MuiTypography-colorInherit {
+  color: white !important;
+}
+button[disabled] {
+  background-color: #0C2D48;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle{
+  white-space: pre-line !important;
+  line-height: initial !important;
+}
+
+.MuiTablePagination-actions {
+   
+  color: white !important;
+}
+
+.MuiTablePagination-select {
+
+  color: white !important;
+}
